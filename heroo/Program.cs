@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// Subject:    Assignment 1
+/// Name:       Mohamoud Mohamed
+/// Student #:  300435435
+/// </summary>
 namespace heroo
 {/**
      * This class is the "driver" class for our Program
