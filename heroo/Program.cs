@@ -5,10 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace heroo
-{
- public   class Program
-    {
-    public    static void Main(string[] args)
+{/**
+     * This class is the "driver" class for our Program
+     * 
+     * @class Program
+     */
+    public class Program
+    { /**
+         * the main method for our driver class Program
+         * 
+         * @method Main
+         * @param {sting[]} args
+         */
+        public static void Main(string[] args)
         {
             Hero jay = new Hero("jay");
             jay.Name = "jay";

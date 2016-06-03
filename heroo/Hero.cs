@@ -68,7 +68,7 @@ namespace heroo
         //++++++++++++++++++++++++++++++++++++++ PRIVATE METHODS ++++++++++++++++++++++++++++++
         //private method for gerating abilities
         //returns void
-          
+        
         private void generateAbilities()
         {
             Random r = new Random();
@@ -116,6 +116,7 @@ namespace heroo
         //++++++++++++++++++++++++++++++++++++++++ PUBLIC METHODS ++++++++++++++++++++++++++++++++++
         /// <summary>
         ///  This is the public method for Fight 
+        ///  returns void.
         /// </summary>
         
         public void Fight()
@@ -142,6 +143,7 @@ namespace heroo
         }
         // this is the public metthod for show
         //retuns nothing
+        //Displays scores.
         public void Show()
         {
             Console.WriteLine("\n+============== SHOW ABILITIES ==================");
