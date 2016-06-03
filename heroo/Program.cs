@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace heroo
 {
-    class Program
+ public   class Program
     {
-        static void Main(string[] args)
+    public    static void Main(string[] args)
         {
+            Hero jay = new Hero("jay");
+            jay.Name = "jay";
+            jay.Show();
+            jay.Fight();
+
         }
     }
 }
