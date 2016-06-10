@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace heroo
 {
+    /// <summary>
+    /// This clas is the SuperHero class that inherits from the Hero class
+    /// </summary>
    class SuperHero : Hero
     {   //++++++++++++++++++++++++++++++++++++ Private instace variables +++++++++++++++++++++++++++
         /// <summary>
@@ -42,6 +45,10 @@ namespace heroo
             _generateRandomPowers();
         }
         //++++++++++++++++++++++++++++++++++++++ Private Methods +++++++++++++++++++++++++++++++++++++++
+        /// <summary>
+        /// This method populates the list < _superPowers>
+        /// this method randomly generates  6 superpowers and chooses 3 powers out of the index
+        /// </summary>
         private void _generateRandomPowers()
         {
             _superPowers.Add("Super Speed");
@@ -68,8 +75,10 @@ namespace heroo
             
             Console.WriteLine();
         }
+        //++++++++++++++++++++++++++++++++++++++++++ Public Methods ++++++++++++++++++++++++++++++++
         /// <summary>
-        /// Thia method displays the powers
+        /// This method displays the powers
+        /// @ void
         /// </summary>
         public void ShowPowers()
         {
@@ -86,7 +95,7 @@ namespace heroo
 
         }
         
-        
+        //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     }
     
 }

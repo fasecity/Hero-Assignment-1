@@ -25,6 +25,7 @@ namespace heroo
         public static void Main(string[] args)
         {
             //assigment 1  --initialization
+           
             //Hero jay = new Hero("jay");
             //jay.Name = "jay";
             //jay.Show();
