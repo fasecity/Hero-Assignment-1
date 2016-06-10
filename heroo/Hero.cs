@@ -126,12 +126,12 @@ namespace heroo
             {
 
                 Random rd = new Random();
-                int randomDamage = rd.Next(1, 6);
+                int randomDamage = rd.Next(1, 7);
                 Console.WriteLine("random damage        : " + randomDamage);
                 int x = streangth * randomDamage;
 
 
-                Console.WriteLine(x + ": is the damage done by " + this.Name);
+                Console.WriteLine(x + ": is the damage done by " + Name);
                 hitDamage(x);
 
             }

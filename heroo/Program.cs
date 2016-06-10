@@ -24,11 +24,18 @@ namespace heroo
          */
         public static void Main(string[] args)
         {
-            Hero jay = new Hero("jay");
-            jay.Name = "jay";
-            jay.Show();
-            jay.Fight();
+            //assigment 1  --initialization
+            //Hero jay = new Hero("jay");
+            //jay.Name = "jay";
+            //jay.Show();
+            //jay.Fight();
 
+            //assignment 2 Super hero initatlization
+            SuperHero Mo = new SuperHero("Mo");
+           
+            Mo.Show();
+            Mo.ShowPowers();
+            Mo.Fight();
         }
     }
 }
